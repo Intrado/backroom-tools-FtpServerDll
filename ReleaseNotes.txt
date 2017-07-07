@@ -1,5 +1,8 @@
+4.3.1.2 - Released 2017/07/07
+   - Change type of .rc file from utf16 to ANSI text in order for software version to update properly with build script.   (http://perforce:8080/@c=2Kf@/260597?ac=10)
+
 4.3.1.1 - Released 2017/07/07
    - Add FtpServerDll into source control.   (http://perforce:8080/@c=2Kf@/260572?ac=10)
 
 
-===== Do not remove this line 260572 =====
+===== Do not remove this line 260597 =====
