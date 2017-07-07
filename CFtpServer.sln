@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CFtpServer", "CFtpServer\CFtpServer.vcxproj", "{734BC75C-F8A7-4DEF-AAF4-66CA0133788D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example", "Example\Example.vcxproj", "{58AF4C24-4B91-498B-841F-0740931A69F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example2", "Example2\Example2.vcxproj", "{814E276B-46AA-4ABA-9F92-70C33EEA3795}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib-1.2.3\projects\vs12\zlib.vcxproj", "{2D697DE8-2802-4BE7-A533-A22350FFF6FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpClientTester", "FtpClientTester\FtpClientTester.vcxproj", "{E44A70F2-3B9F-4857-B5B6-78B2E1A9E693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734BC75C-F8A7-4DEF-AAF4-66CA0133788D}.Release|Win32.ActiveCfg = Release|Win32
+		{734BC75C-F8A7-4DEF-AAF4-66CA0133788D}.Release|Win32.Build.0 = Release|Win32
+		{58AF4C24-4B91-498B-841F-0740931A69F5}.Release|Win32.ActiveCfg = Release|Win32
+		{58AF4C24-4B91-498B-841F-0740931A69F5}.Release|Win32.Build.0 = Release|Win32
+		{814E276B-46AA-4ABA-9F92-70C33EEA3795}.Release|Win32.ActiveCfg = Release|Win32
+		{814E276B-46AA-4ABA-9F92-70C33EEA3795}.Release|Win32.Build.0 = Release|Win32
+		{2D697DE8-2802-4BE7-A533-A22350FFF6FF}.Release|Win32.ActiveCfg = Release|Win32
+		{2D697DE8-2802-4BE7-A533-A22350FFF6FF}.Release|Win32.Build.0 = Release|Win32
+		{E44A70F2-3B9F-4857-B5B6-78B2E1A9E693}.Release|Win32.ActiveCfg = Release|Win32
+		{E44A70F2-3B9F-4857-B5B6-78B2E1A9E693}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

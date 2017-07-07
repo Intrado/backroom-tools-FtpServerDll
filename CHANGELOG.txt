@@ -1,0 +1,20 @@
+v4.0
+01-09-2006: Initial v4.0 public release.
+
+v4.1
+04-12-2006: Improved directory listing.
+29-09-2006: Fixed a thread synchronisation bug when restarting the server.
+29-09-2006: Fixed a timout bug when a transfer was taking some time.
+30-09-2006: Fixed a warning when compiling using -Wall under cygwin.
+25-11-2006: Secured dynamic memory allocations.
+25-11-2006: Fixed a bug that could stop a tranfer.
+25-11-2006: Created "CFtpServer/config.h" file to make custom compilation easier.
+25-11-2006: Minor bugfixes.
+
+v4.2
+21-12-2006: Fully implemented Zlib compression.
+25-11-2006: A lot of bugfixes and improvements.
+
+v4.3
+03-02-2006: Improved data transfer speed.
+03-02-2006: Some minor changes.

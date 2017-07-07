@@ -1,0 +1,15 @@
+[What is CFtpServer ?]
+
+CFtpServer is a cross-platform C++ class which allows developers to use a
+simple, fast, and reliable FTP server within their program.
+
+[Where's the CFtpServer documentation ?]
+
+Everything is in the CFtpServer.h file.
+
+[Who's the author of the CFtpServer class ?]
+
+Julien Poumailloux <thebrowser@gmail.com> is the author of this code.
+A lot of people submited ideas, bugfixes and improvments.
+One of those who greatly improved the code stability is: Piergiorgio Beruto.
+One another who helped me improving the code is: Christian Dähn.
