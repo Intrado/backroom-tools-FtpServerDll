@@ -1948,7 +1948,8 @@ bool CFtpServer::CClientEntry::OpenDataConnection( int nCmd )
 			#endif
 			unsigned short int usLen, usStart;
 			pFtpServer->GetDataPortRange( &usStart, &usLen );
-			BindSin.sin_port = (unsigned short) ( usStart + ( rand() % usLen ) );
+      unsigned short usTriedPort = (unsigned short)(usStart + (rand() % usLen));
+      BindSin.sin_port = htons(usTriedPort);
 
 			int on = 1; // Here the strange behaviour of SO_REUSEADDR under win32 is welcome.
 			#ifdef SO_REUSEPORT
