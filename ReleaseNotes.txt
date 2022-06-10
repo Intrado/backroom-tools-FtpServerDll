@@ -1,3 +1,8 @@
+4.3.1.3 - Released 2022/06/10 10:11:55
+
+   < f5724c1, Gang Chen, 2022-06-10 10:11:20 -0400 >
+   - VIPER-23814: Bugfix for not doing htons() on supplied port number 
+   
 4.3.1.2 - Released 2017/07/07
    - Change type of .rc file from utf16 to ANSI text in order for software version to update properly with build script.   (http://perforce:8080/@c=2Kf@/260597?ac=10)
 
